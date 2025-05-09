@@ -65,12 +65,13 @@ Total Strategy Return: XX.XX%
 Annualized Volatility: XX.XX%
 Sharpe Ratio: X.XX
 
-🛠️ Future Improvements
+   🛠️ Future Improvements
 
-Add Bollinger Bands, RSI, and other technical indicators
-Expand to multi-asset portfolio analysis
-Automate email alerts or notifications
-Allow user input for ticker and date range
+- 🧠 Add RSI, MACD, and other momentum indicators
+- 📈 Implement real-time data with WebSocket APIs
+- 📊 Create an interactive Streamlit dashboard
+- 📉 Include risk management rules (stop-loss, max drawdown)
+- 🧮 Add portfolio-level analysis with asset allocation
 
 👤 Author
 Abhinav Tanikonda
