@@ -1,0 +1,79 @@
+# 📈 Stock Performance Analyzer with Backtesting
+
+A Python-based finance project that analyzes historical stock data, visualizes moving average trends, and evaluates a simple trading strategy using key performance metrics. 
+This project demonstrates coding, data analysis, and financial modeling skills.
+
+---
+
+## 🚀 Features
+
+- 📊 Pulls historical stock data using `yfinance`
+- 📈 Calculates 50-day and 200-day simple moving averages
+- 🔁 Generates buy/sell signals from SMA crossovers
+- 🧠 Backtests a basic trading strategy
+- 📉 Compares strategy to buy-and-hold benchmark
+- 📐 Calculates total return, volatility, and Sharpe Ratio
+- 🖼️ Saves and displays performance visualizations
+
+---
+
+## 💻 Tech Stack
+
+- Python 3.x
+- pandas
+- NumPy
+- matplotlib
+- yfinance
+
+---
+
+## 🧪 Strategy Explanation
+
+**Moving Average Crossover Strategy**  
+- **Buy** when the 50-day SMA crosses above the 200-day SMA (golden cross)  
+- **Sell** when the 50-day SMA drops below the 200-day SMA (death cross)
+
+---
+
+## 📁 Files Included
+
+- `main.py` — Full source code  
+- `requirements.txt` — Dependencies for easy setup  
+- `strategy_plot.png` — Chart with moving averages and trade signals  
+- `backtest_plot.png` — Strategy vs. benchmark performance
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/stock-analyzer.git
+   cd stock-analyzer
+
+2. Install dependencies:
+    pip install -r requirements.txt
+
+3. Run the script:
+python main.py
+
+📈 Example Metrics Output
+Performance Summary for AAPL:
+
+Total Strategy Return: XX.XX%
+Annualized Volatility: XX.XX%
+Sharpe Ratio: X.XX
+
+🛠️ Future Improvements
+
+Add Bollinger Bands, RSI, and other technical indicators
+Expand to multi-asset portfolio analysis
+Automate email alerts or notifications
+Allow user input for ticker and date range
+
+👤 Author
+Abhinav Tanikonda
+High school student | Dougherty Valley High School
+📍 San Ramon, CA
+🔗 GitHub | LinkedIn
+
